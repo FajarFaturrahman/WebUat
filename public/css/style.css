@@ -1,0 +1,123 @@
+body {
+    font-size: .875rem;
+  }
+  
+  
+  /*
+   * Sidebar
+   */
+  
+   #sidebar{
+     background-color: #F4F4F4;
+     min-height: 100vh;
+   }
+  #sidebar.active{
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;    
+  }
+
+  #sidebar .sidebar-header strong{
+    display: none;
+  }
+
+  #sidebar.active .sidebar-header h3{
+    display: none;
+  }
+  
+  #sidebar.active .sidebar-header strong{
+    display: block;
+  }
+  
+  #sidebar ul li a{
+    text-align: left;
+  }
+
+  #sidebar.active ul li a{
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.85em;
+    
+  }
+
+  #sidebar.active ul ul a{
+    padding: 10px;
+  }
+  @media (max-width: 768px) {
+    /* 80px and its content aligned to centre. Pushing it off the screen with the
+       negative left margin
+    */
+    #sidebar.active {
+        min-width: 80px;
+        max-width: 80px;
+        text-align: center;
+        margin-left: -80px !important;
+    }
+
+
+    /* Reappearing the sidebar on toggle button click */
+    #sidebar {
+        margin-left: 0; 
+    }
+
+
+    /* Toggling the sidebar header content, 
+       hide the big heading [h3] and showing the small heading [strong] and vice versa
+    */
+    #sidebar .sidebar-header strong {
+        display: none;
+    }
+    #sidebar.active .sidebar-header h3 {
+        display: none;
+    }
+    #sidebar.active .sidebar-header strong {
+        display: block;
+    }
+
+    /* Downsize the navigation links font size */
+    #sidebar.active ul li a {
+        padding: 20px 10px;
+        font-size: 0.85em;
+    } 
+
+    /* Adjust the dropdown links padding*/
+    #sidebar.active ul ul a {
+        padding: 10px !important;
+    }
+  }
+
+  .forSearch{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;    
+}
+
+.forSearch input#search{
+    width: 300px;
+    height: 40px;
+    background: #F4F4F4;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #262626;
+    padding-left: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    color: black;    
+}
+.forSearch .icon{
+  position: absolute;  
+  margin-left: 17px;
+  margin-top: 8px;
+  z-index: 1;
+  color: black;
+}
+
+#infoData{
+  border-radius: 100px;
+}
+#employee{
+  color: #9B51E0;
+}
