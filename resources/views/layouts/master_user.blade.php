@@ -107,19 +107,19 @@
                 <div class="row">
                     <div class="navbar navbar-expand-lg">
                         <ul class="navbar-nav">
-                            <li class="nav-item pr-5 pl-5 pt-4 active">
+                            <li class="nav-item pr-5 pl-5 pt-4 active" style="cursor: pointer;">
                                 <p>Projects</p>
                             </li>
-                            <li class="nav-item pr-5 pl-5 pt-4">
+                            <li class="nav-item pr-5 pl-5 pt-4" style="cursor: pointer;">
                                 <p>Finished</p>
                             </li>
-                            <li class="nav-item pr-5 pl-5 pt-4">
+                            <li class="nav-item pr-5 pl-5 pt-4" style="cursor: pointer;">
                                 <p>Settings</p>
                             </li>
-                            <li class="nav-item pr-5 pl-5 pt-4">
+                            <li class="nav-item pr-5 pl-5 pt-4" style="cursor: pointer;">
                                 <p>Shoppie Emerald</p>    
                             </li>
-                            <li class="nav-item pr-5 pt-3">    
+                            <li class="nav-item pr-5 pt-3" style="cursor: pointer;">    
                                 <div class="ml-2" style="background-color: rgba(0, 0, 0, 0.25); width: 48px; border-radius: 100px;">
                                     <img style="margin: 6px;" src="{{ asset('img/user/user5.png') }}" alt="">
                                 </div>

@@ -16,3 +16,9 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', 'DashboardController@index');
+
+Route::get('/project', 'ProjectController@index');
+
+Route::get('/finishedproject', 'FinishedProjectsController@index');
+
+Route::get('/user', 'UserListController@index');
