@@ -26,7 +26,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-4 p-0">
+            <div class="col-lg-3 p-0">
                 <div class="row">
                     <div class="jumbotron jumbotron-fluid p-0 m-0" style="max-height: 500px; height: 420px; width: 300px; margin: 0 auto; float: left; border-bottom-right-radius: 100px; background-color: #E5E5E5;">
                         <div class="container">
@@ -82,7 +82,7 @@
                     <div class="col-12">
                         <h5 class="font-weight-bold">PROGRAMMERS</h5>
                     </div>
-                    <div class="col-12 mt-2">
+                    <div class="col-12 mt-4">
                         <div class="programmers-image row pl-3">
                             <div class="" style="background-color: rgba(47, 128, 237, 0.5); width: 48px; border-radius: 100px;">
                                 <img style="margin: 6px;" src="{{ asset('img/user/user1.png') }}" alt="">
@@ -103,8 +103,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8">
-                <div class="row">
+            <div class="col-lg-9">
+                <div class="row justify-content-center">
                     <div class="navbar navbar-expand-lg">
                         <ul class="navbar-nav">
                             <li class="nav-item pr-5 pl-5 pt-4 active" style="cursor: pointer;">
@@ -117,18 +117,13 @@
                                 <p>Settings</p>
                             </li>
                             <li class="nav-item pr-5 pl-5 pt-4" style="cursor: pointer;">
-                                <p>Shoppie Emerald</p>    
-                            </li>
-                            <li class="nav-item pr-5 pt-3" style="cursor: pointer;">    
-                                <div class="ml-2" style="background-color: rgba(0, 0, 0, 0.25); width: 48px; border-radius: 100px;">
-                                    <img style="margin: 6px;" src="{{ asset('img/user/user5.png') }}" alt="">
-                                </div>
+                                <p>Profile</p>    
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="row">
-                    <div style="width: 84%; height: 4px; background-color: #E5E5E5; border-radius: 100px;">
+                <div class="row justify-content-center">
+                    <div style="width: 70%; height: 4px; background-color: #E5E5E5; border-radius: 100px;">
                     </div>
                 </div>
                 @yield('content')
