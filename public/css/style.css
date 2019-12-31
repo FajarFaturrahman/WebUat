@@ -14,7 +14,8 @@ body {
   #sidebar.active{
     min-width: 80px;
     max-width: 80px;
-    text-align: center;    
+    text-align: center;
+    opa    
   }
 
   #sidebar .sidebar-header strong{
