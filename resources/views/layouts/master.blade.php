@@ -83,11 +83,10 @@
       </ul>
     </nav>
      
-    <div id="content" class="col-10">
-    <button type="button" id="sidebarCollapse" class="btn btn-info">
-                    <i class="fa fa-align-left"></i>
-                    <span>Toggle Sidebar</span>
-                </button>
+    <div id="content" class="col-md-10">
+      <button type="button" id="sidebarCollapse" class="btn btn-info">
+        <i class="fa fa-align-left"></i>       
+      </button>
       @yield('content')
     </div>
   

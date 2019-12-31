@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('admin.home');
 });
+
+Route::get('/project', 'ProjectController@index');
+
+Route::get('/finishedproject', 'FinishedProjectsController@index');
+
+Route::get('/user', 'UserListController@index');
