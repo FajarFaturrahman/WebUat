@@ -33,37 +33,37 @@
         <strong>UAT</strong>
       </div>
 
-      <ul class="list-unstyled components">
+      <ul class="list-unstyled components pl-2">
         <li class="active mt-4">
-          <a href="#home">
+          <a href="{{ url('home') }}">
             <img src="{{ asset('img/mdi_home.png') }}" alt="">
             Home
           </a>
         </li>
         
         <li class="mt-4">
-          <a href="#projects">
+          <a href="{{ url('project') }}">
             <img src="{{ asset('img/mdi_rocket.png') }}" alt="">
             Projects
           </a>
         </li>
 
         <li class="mt-4">
-          <a href="#history">
+          <a href="{{ url('finishedproject') }}">
             <img src="{{ asset('img/mdi_history.png') }}" alt="">
             Finished Projects
           </a>
         </li>
 
         <li class="mt-4">
-          <a href="#user">
+          <a href="{{ url('user') }}">
             <img src="{{ asset('img/mdi_account.png') }}" alt="">
             Users
           </a>
         </li>
 
         <li class="mt-4">
-          <a href="#setting">
+          <a href="{{ url('setting') }}">
             <img src="{{ asset('img/mdi_settings.png') }}" alt="">
             Setting
           </a>
@@ -73,8 +73,10 @@
 
         <hr>
 
+        
 
-        <li class="mt-4">
+
+        <li class=" mb-5 bottom fixed-bottom pl-2">
           <a href="#logout">
             <img src="{{ asset('img/mdi_logout.png') }}" alt="">
             logout

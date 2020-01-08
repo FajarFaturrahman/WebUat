@@ -15,7 +15,7 @@ body {
     min-width: 80px;
     max-width: 80px;
     text-align: center;
-    opa    
+    
   }
 
   #sidebar .sidebar-header strong{
@@ -148,8 +148,28 @@ body {
   border-radius: 100px;
 }
 
+
+#judulEdit{
+  background-color: #E5E5E5;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  width: 50%;
+}
+
+#inputText{
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom: solid;
+  border-radius: 0;
+}
 .project-card{
   background-image: linear-gradient(to right, #2F80ED, #56CCF2);
+  color: #fff;
+}
+
+.project-card2{
+  background-image: linear-gradient(to right, #F2994A, #F2C94C);
   color: #fff;
 }
 .project-card:hover{
@@ -179,4 +199,14 @@ body {
 }
 .active{
   font-weight: bold;
+}
+.project-card2:hover{
+  margin-top: -10px;
+  box-shadow: 2px 4px 8px rgba(47, 128, 237, 0.5);
+  transition: .2s;
+
+}
+#btn-save{
+  border-radius: 100px;
+  background-color: rgb(191, 235, 250);
 }

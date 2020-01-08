@@ -42,13 +42,13 @@
         </div>
         
         <div class="row mt-3">
-            <div class="col-md-4 mt-2">
-                <div class="card rounded-lg bg-light">
-                    <div class="card-body  pb-0 pt-2">
+            <div class="col-md-4 mt-4">
+                <div class="card rounded-lg project-card2">
+                    <div class="card-body pb-0 pt-2">
                         <div class="row">
-                            <img src="{{ asset('img/mdi_rocket.png') }}" alt="">
-                            <strong class="ml-2 text-primary">Project A</strong>
-                            <div class="ml-2 text-primary">| Company A</div>
+                            <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
+                            <strong class="ml-2">Project A</strong>
+                            <div class="ml-2">| Company A</div>
                         </div>
 
                         <div class="row mt-4">
@@ -58,7 +58,7 @@
 
                             <div class="col-md-3">
                                 <div class="row">
-                                    <img src="{{ asset('img/mdi_check-bold.png') }}" alt="">                                    
+                                    <img src="{{ asset('img/white/check-white.png') }}" alt="">                                    
                                     <div>10/40</div>
                                 </div>                                
                             </div>
@@ -67,13 +67,13 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mt-2">
-                <div class="card rounded-lg bg-light">
+            <div class="col-md-4 mt-4">
+                <div class="card rounded-lg project-card2">
                     <div class="card-body  pb-0 pt-2">
                         <div class="row">
-                            <img src="{{ asset('img/mdi_rocket.png') }}" alt="">
-                            <strong class="ml-2 text-primary">Project A</strong>
-                            <div class="ml-2 text-primary">| Company A</div>
+                            <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
+                            <strong class="ml-2">Project A</strong>
+                            <div class="ml-2">| Company A</div>
                         </div>
 
                         <div class="row mt-4">
@@ -83,7 +83,7 @@
 
                             <div class="col-md-3">
                                 <div class="row">
-                                    <img src="{{ asset('img/mdi_check-bold.png') }}" alt="">                                    
+                                    <img src="{{ asset('img/white/check-white.png') }}" alt="">                                    
                                     <div>10/40</div>
                                 </div>                                
                             </div>
@@ -92,13 +92,13 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mt-2">
-                <div class="card rounded-lg bg-light">
+            <div class="col-md-4 mt-4">
+                <div class="card rounded-lg project-card2">
                     <div class="card-body  pb-0 pt-2">
                         <div class="row">
-                            <img src="{{ asset('img/mdi_rocket.png') }}" alt="">
-                            <strong class="ml-2 text-primary">Project A</strong>
-                            <div class="ml-2 text-primary">| Company A</div>
+                            <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
+                            <strong class="ml-2 ">Project A</strong>
+                            <div class="ml-2">| Company A</div>
                         </div>
 
                         <div class="row mt-4">
@@ -108,7 +108,7 @@
 
                             <div class="col-md-3">
                                 <div class="row">
-                                    <img src="{{ asset('img/mdi_check-bold.png') }}" alt="">                                    
+                                    <img src="{{ asset('img/white/check-white.png') }}" alt="">                                    
                                     <div>10/40</div>
                                 </div>                                
                             </div>
@@ -117,13 +117,13 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mt-2">
-                <div class="card rounded-lg bg-light">
-                    <div class="card-body  pb-0 pt-2">
+            <div class="col-md-4 mt-4">
+                <div class="card rounded-lg project-card2">
+                    <div class="card-body pb-0 pt-2">
                         <div class="row">
-                            <img src="{{ asset('img/mdi_rocket.png') }}" alt="">
-                            <strong class="ml-2 text-primary">Project A</strong>
-                            <div class="ml-2 text-primary">| Company A</div>
+                            <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
+                            <strong class="ml-2">Project A</strong>
+                            <div class="ml-2">| Company A</div>
                         </div>
 
                         <div class="row mt-4">
@@ -133,7 +133,7 @@
 
                             <div class="col-md-3">
                                 <div class="row">
-                                    <img src="{{ asset('img/mdi_check-bold.png') }}" alt="">                                    
+                                    <img src="{{ asset('img/white/check-white.png') }}" alt="">                                    
                                     <div>10/40</div>
                                 </div>                                
                             </div>
@@ -142,13 +142,13 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mt-2">
-                <div class="card rounded-lg bg-light">
-                    <div class="card-body  pb-0 pt-2">
+            <div class="col-md-4 mt-4">
+                <div class="card rounded-lg project-card2">
+                    <div class="card-body pb-0 pt-2">
                         <div class="row">
-                            <img src="{{ asset('img/mdi_rocket.png') }}" alt="">
-                            <strong class="ml-2 text-primary">Project A</strong>
-                            <div class="ml-2 text-primary">| Company A</div>
+                            <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
+                            <strong class="ml-2">Project A</strong>
+                            <div class="ml-2">| Company A</div>
                         </div>
 
                         <div class="row mt-4">
@@ -158,7 +158,7 @@
 
                             <div class="col-md-3">
                                 <div class="row">
-                                    <img src="{{ asset('img/mdi_check-bold.png') }}" alt="">                                    
+                                    <img src="{{ asset('img/white/check-white.png') }}" alt="">                                    
                                     <div>10/40</div>
                                 </div>                                
                             </div>
@@ -167,13 +167,13 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mt-2">
-                <div class="card rounded-lg bg-light">
+            <div class="col-md-4 mt-4">
+                <div class="card rounded-lg project-card2">
                     <div class="card-body  pb-0 pt-2">
                         <div class="row">
-                            <img src="{{ asset('img/mdi_rocket.png') }}" alt="">
-                            <strong class="ml-2 text-primary">Project A</strong>
-                            <div class="ml-2 text-primary">| Company A</div>
+                            <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
+                            <strong class="ml-2">Project A</strong>
+                            <div class="ml-2">| Company A</div>
                         </div>
 
                         <div class="row mt-4">
@@ -183,7 +183,7 @@
 
                             <div class="col-md-3">
                                 <div class="row">
-                                    <img src="{{ asset('img/mdi_check-bold.png') }}" alt="">                                    
+                                    <img src="{{ asset('img/white/check-white.png') }}" alt="">                                    
                                     <div>10/40</div>
                                 </div>                                
                             </div>
@@ -192,13 +192,13 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mt-2">
-                <div class="card rounded-lg bg-light">
+            <div class="col-md-4 mt-4">
+                <div class="card rounded-lg project-card2">
                     <div class="card-body  pb-0 pt-2">
                         <div class="row">
-                            <img src="{{ asset('img/mdi_rocket.png') }}" alt="">
-                            <strong class="ml-2 text-primary">Project A</strong>
-                            <div class="ml-2 text-primary">| Company A</div>
+                            <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
+                            <strong class="ml-2">Project A</strong>
+                            <div class="ml-2">| Company A</div>
                         </div>
 
                         <div class="row mt-4">
@@ -208,7 +208,7 @@
 
                             <div class="col-md-3">
                                 <div class="row">
-                                    <img src="{{ asset('img/mdi_check-bold.png') }}" alt="">                                    
+                                    <img src="{{ asset('img/white/check-white.png') }}" alt="">                                    
                                     <div>10/40</div>
                                 </div>                                
                             </div>
@@ -217,13 +217,13 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mt-2">
-                <div class="card rounded-lg bg-light">
+            <div class="col-md-4 mt-4">
+                <div class="card rounded-lg project-card2">
                     <div class="card-body  pb-0 pt-2">
                         <div class="row">
-                            <img src="{{ asset('img/mdi_rocket.png') }}" alt="">
-                            <strong class="ml-2 text-primary">Project A</strong>
-                            <div class="ml-2 text-primary">| Company A</div>
+                            <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
+                            <strong class="ml-2">Project A</strong>
+                            <div class="ml-2">| Company A</div>
                         </div>
 
                         <div class="row mt-4">
@@ -233,7 +233,7 @@
 
                             <div class="col-md-3">
                                 <div class="row">
-                                    <img src="{{ asset('img/mdi_check-bold.png') }}" alt="">                                    
+                                    <img src="{{ asset('img/white/check-white.png') }}" alt="">                                    
                                     <div>10/40</div>
                                 </div>                                
                             </div>
@@ -242,13 +242,13 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mt-2">
-                <div class="card rounded-lg bg-light">
+            <div class="col-md-4 mt-4">
+                <div class="card rounded-lg project-card2">
                     <div class="card-body  pb-0 pt-2">
                         <div class="row">
-                            <img src="{{ asset('img/mdi_rocket.png') }}" alt="">
-                            <strong class="ml-2 text-primary">Project A</strong>
-                            <div class="ml-2 text-primary">| Company A</div>
+                            <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
+                            <strong class="ml-2">Project A</strong>
+                            <div class="ml-2">| Company A</div>
                         </div>
 
                         <div class="row mt-4">
@@ -258,7 +258,7 @@
 
                             <div class="col-md-3">
                                 <div class="row">
-                                    <img src="{{ asset('img/mdi_check-bold.png') }}" alt="">                                    
+                                    <img src="{{ asset('img/white/check-white.png') }}" alt="">                                    
                                     <div>10/40</div>
                                 </div>                                
                             </div>
