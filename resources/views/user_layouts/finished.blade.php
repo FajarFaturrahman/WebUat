@@ -21,7 +21,7 @@
         </div>
         <div class="row mt-4">
             <div class="col-6 mt-4">
-                <div class="card border-0 project-card">
+                <div class="card border-0 project-card2">
                     <div class="card-body pb-0 pt-2">
                         <div class="row">
                             <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="col-6 mt-4">
-                <div class="card border-0 project-card">
+                <div class="card border-0 project-card2">
                     <div class="card-body pb-0 pt-2">
                         <div class="row">
                             <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
@@ -67,7 +67,7 @@
                 </div>
             </div>
             <div class="col-6 mt-4">
-                <div class="card border-0 project-card">
+                <div class="card border-0 project-card2">
                     <div class="card-body pb-0 pt-2">
                         <div class="row">
                             <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
@@ -90,7 +90,7 @@
                 </div>
             </div>
             <div class="col-6 mt-4">
-                <div class="card border-0 project-card">
+                <div class="card border-0 project-card2">
                     <div class="card-body pb-0 pt-2">
                         <div class="row">
                             <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
@@ -113,7 +113,7 @@
                 </div>
             </div>
             <div class="col-6 mt-4">
-                <div class="card border-0 project-card">
+                <div class="card border-0 project-card2">
                     <div class="card-body pb-0 pt-2">
                         <div class="row">
                             <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
@@ -136,7 +136,7 @@
                 </div>
             </div>
             <div class="col-6 mt-4">
-                <div class="card border-0 project-card">
+                <div class="card border-0 project-card2">
                     <div class="card-body pb-0 pt-2">
                         <div class="row">
                             <img src="{{ asset('img/white/rocket-white.png') }}" alt="">
@@ -161,4 +161,3 @@
         </div>
     </div>
 @endsection
-

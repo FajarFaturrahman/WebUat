@@ -154,6 +154,29 @@ body {
 }
 .project-card:hover{
   margin-top: -10px;
-  box-shadow: 2px 4px 8px rgba(47, 128, 237, 0.5);
-  transition: .2s;
+  box-shadow: 4px 8px 16px rgba(47, 128, 237, 0.5);
+  transition: .4s;
+}
+.project-card2{
+  background-image: linear-gradient(to right, #F2994A, #F2C94C);
+  color: #fff;
+}
+.project-card2:hover{
+  margin-top: -10px;
+  box-shadow: 4px 8px 16px rgba(242, 153, 74, 0.5);
+  transition: .4s;
+}
+.nav-item:hover{
+  background-color: #e5e5e5;
+  border-radius: 100px;
+  transition: .4s;
+}
+.nav-link{
+  color: #000;
+}
+.nav-link:hover{
+  color: #000;
+}
+.active{
+  font-weight: bold;
 }

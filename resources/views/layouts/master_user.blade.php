@@ -107,28 +107,47 @@
                 <div class="row justify-content-center">
                     <div class="navbar navbar-expand-lg">
                         <ul class="navbar-nav">
-                            <li class="nav-item pr-5 pl-5 pt-4 active" style="cursor: pointer;">
-                                <p>Projects</p>
+                            <li class="nav-item pr-5 pl-5 pt-3 mt-2" style="cursor: pointer;">  
+                                @if(Request::url() === route('dashboard'))
+                                    <a class="nav-link active p-0" href="{{ route('dashboard') }}"><p>PROJECTS</p></a>
+                                @else
+                                    <a class="nav-link p-0" href="{{ route('dashboard') }}"><p>PROJECTS</p></a>
+                                @endif
                             </li>
-                            <li class="nav-item pr-5 pl-5 pt-4" style="cursor: pointer;">
-                                <p>Finished</p>
+                            <li class="nav-item pr-5 pl-5 pt-3 mt-2" style="cursor: pointer;">
+                                @if(Request::url() === route('finished'))
+                                    <a class="nav-link active p-0" href="{{ route('finished') }}"><p>FINISHED</p> </a>
+                                @else
+                                    <a class="nav-link p-0" href="{{ route('finished') }}"><p>FINISHED</p> </a>
+                                @endif
                             </li>
-                            <li class="nav-item pr-5 pl-5 pt-4" style="cursor: pointer;">
-                                <p>Settings</p>
+                            <li class="nav-item pr-5 pl-5 pt-3 mt-2" style="cursor: pointer;">
+                                @if(Request::url() === route('settingu'))
+                                    <a class="nav-link active p-0" href="{{ route('settingu') }}"><p>SETTINGS</p></a>
+                                @else
+                                    <a class="nav-link p-0" href="{{ route('settingu') }}"><p>SETTINGS</p></a>
+                                @endif
                             </li>
-                            <li class="nav-item pr-5 pl-5 pt-4" style="cursor: pointer;">
-                                <p>Profile</p>    
+                            <li class="nav-item pr-5 pl-5 pt-3 mt-2" style="cursor: pointer;">
+                                @if(Request::url() === route('profileu'))
+                                    <a class="nav-link active p-0" href="{{ route('profileu') }}"><p>PROFILE</p></a>
+                                @else
+                                    <a class="nav-link p-0" href="{{ route('profileu') }}"><p>PROFILE</p></a>
+                                @endif
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                <div class="line-nav row justify-content-center">
                     <div style="width: 70%; height: 4px; background-color: #E5E5E5; border-radius: 100px;">
                     </div>
                 </div>
                 @yield('content')
             </div>
         </div>
-    </div>    
+    </div>
+    <script>
+    </script>
+    @yield('js')
 </body>
 </html>
