@@ -60,7 +60,7 @@
                         <input type="text" placeholder="Confirm Password" class="form-control mt-5" id="inputText">
                     </div>
                     <div class="col-md-3">
-                        <button class="mt-5">SAVE</button>
+                        <button class="mt-5 pl-3 pr-3" id="btn-save">SAVE</button>
                     </div>
                     
                 </div>
