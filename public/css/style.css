@@ -15,7 +15,7 @@ body {
     min-width: 80px;
     max-width: 80px;
     text-align: center;
-    opa    
+    
   }
 
   #sidebar .sidebar-header strong{
@@ -148,7 +148,7 @@ body {
   border-radius: 100px;
 }
 
-<<<<<<< HEAD
+
 #judulEdit{
   background-color: #E5E5E5;
   border-top-right-radius: 100px;
@@ -162,7 +162,7 @@ body {
   border-right-style: none;
   border-bottom: solid;
   border-radius: 0;
-=======
+}
 .project-card{
   background-image: linear-gradient(to right, #2F80ED, #56CCF2);
   color: #fff;
@@ -171,5 +171,5 @@ body {
   margin-top: -10px;
   box-shadow: 2px 4px 8px rgba(47, 128, 237, 0.5);
   transition: .2s;
->>>>>>> fb01962f569da043a20f3ad5563120776ae43b95
+
 }
