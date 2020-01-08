@@ -146,3 +146,18 @@ body {
   background-color: #E5E5E5;
   border-radius: 100px;
 }
+
+#judulEdit{
+  background-color: #E5E5E5;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  width: 50%;
+}
+
+#inputText{
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom: solid;
+  border-radius: 0;
+}
